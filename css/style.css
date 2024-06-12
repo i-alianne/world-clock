@@ -1,9 +1,11 @@
 body {
   background-image: url("clocks-pattern.jpg");
-    background-repeat: repeat;
-    background-size: auto 400px;
-    background-position: center; 
+  background-repeat: repeat;
+  background-size: auto 400px;
+  background-position: center;
   font-family: sans-serif;
+  background-color: rgba(0, 0, 0, 0.6);
+  background-blend-mode: overlay;
 }
 
 .container {
@@ -42,10 +44,6 @@ select {
   padding: 30px 0;
 }
 
-.city:last-child {
-  border: none;
-}
-
 .date {
   opacity: 0.7;
 }
@@ -64,6 +62,7 @@ select {
 
 footer {
   text-align: center;
-  font-size: 16px;
-  color: rgba(0, 0, 0, 0.8);
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.6);
+  padding-top: 25px;
 }
