@@ -1,5 +1,8 @@
 body {
-  background-color: #e2d5e3;
+  background-image: url("css/clock-pattern.jpg");
+    background-repeat: repeat;
+    background-size: cover;
+    background-position: center; 
   font-family: sans-serif;
 }
 
